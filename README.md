@@ -41,21 +41,23 @@ Betiği Çalıştırın:
 ```bash
 python google_search.py -q "inurl:.php?id=" -n 10 -l tr -o results.txt
 ```
+## Kullanım
 
-Kullanım
 Betik, komut satırı argümanları ile kullanılır. Aşağıda kullanılabilir argümanların bir listesi bulunmaktadır:
 
-Argüman	Açıklama
--q, --query	Zorunlu: Arama sorgusu (örneğin, inurl:.php?id=).
--n, --num_results	Opsiyonel: Gösterilecek sonuç sayısı (varsayılan: 10).
--l, --lang	Opsiyonel: Arama dili (örneğin, tr Türkçe için).
--o, --output	Opsiyonel: Sonuçların kaydedileceği dosya adı.
-Örnek Kullanımlar
-Sadece Ekrana Yazdırma:
+| Argüman                 | Açıklama                                                                |
+|-------------------------|-------------------------------------------------------------------------|
+| `-q`, `--query`         | Zorunlu: Arama sorgusu (örneğin, `inurl:.php?id=`).                     |
+| `-n`, `--num_results`   | Opsiyonel: Gösterilecek sonuç sayısı (varsayılan: 10).                  |
+| `-l`, `--lang`          | Opsiyonel: Arama dili (örneğin, `tr` Türkçe için).                      |
+| `-o`, `--output`        | Opsiyonel: Sonuçların kaydedileceği dosya adı.                          |
 
-```bash
-python google_search.py -q "inurl:.php?id=" -n 5
-```
+### Örnek Kullanımlar
+
+- **Sadece Ekrana Yazdırma:**
+
+  ```bash
+  python script.py -q "inurl:.php?id=" -n 5
 
 Dosyaya Kaydetme:
 
