@@ -5,7 +5,7 @@ Bu Python betiği, Google'da belirli bir sorgu için arama yaparak sonuçları l
 ## Özellikler
 
 - Google'da belirli bir sorgu için arama yapar.
-- Sonuçları ekrana yazdırır veya bir dosyaya kaydeder.
+- Sonuç URL adreslerini ekrana ya da dosyaya yazdırır veya bir dosyaya kaydeder.
 - Arama dilini belirleme seçeneği sunar (`lang` parametresi).
 - SSL sertifikası doğrulama uyarılarını devre dışı bırakır.
 
